@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product List-New</title>
+    <link rel="stylesheet" href="/public/style.css"> <!-- Link to stylesheet -->
+</head>
+<body>
+    <h1>Product List</h1>
+    <ul>
+        <% products.forEach(product => { %>
+            <li>
+                <%= product.name %> - $<%= product.price %>
+            </li>
+        <% }); %>
+    </ul>
+</body>
+</html>
