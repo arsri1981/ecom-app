@@ -1,2 +1,2 @@
 # ecom-app
-ecom-app nodeJSs project
+ecom-app nodeJs project assignments
